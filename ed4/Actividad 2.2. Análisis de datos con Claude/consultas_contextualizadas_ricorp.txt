@@ -1,0 +1,16 @@
+## Prompts · dataset cartera_titularizacion_ricorp.csv
+
+**Nivel 1. Análisis simple de datos para un correo dirigido al director general**
+Actúa como analista de RICORP Titularizadora. Con el archivo cartera_titularizacion_ricorp.csv, calcula cuántos registros de pago están en estado "En mora" y qué porcentaje representan del total de filas. Redacta el resultado como un correo breve para el director general: asunto sugerido, el dato principal destacado en la primera línea, y una frase que lo compare contra los pagos "Pagado" y "Pagado con retraso". Máximo 100 palabras.
+
+**Nivel 2. Análisis de datos multivariable para resumen ejecutivo de 2 párrafos**
+Actúa como analista de riesgo de RICORP Titularizadora. Con el archivo cartera_titularizacion_ricorp.csv, identifica qué originador concentra el mayor monto en mora (suma de monto_capital_usd + monto_interes_usd donde estado_pago sea "En mora"), y compáralo con el originador que tiene el mayor número de pagos en mora. Indica si es el mismo originador o no. Redacta un resumen ejecutivo de 2 párrafos para presentar al comité de riesgo: primer párrafo con los hallazgos, segundo párrafo con la implicación para RICORP.
+
+**Nivel 3. Construir un dashboard con 4 KPIs y 4 gráficos**
+Actúa como analista de datos de RICORP Titularizadora. Con el archivo cartera_titularizacion_ricorp.csv, construye un dashboard con estos 4 KPIs: (1) tasa de mora global (monto en mora / monto_tramo_usd total), (2) monto total vigente (saldo_vigente_usd), (3) tasa de cupón promedio ponderada por monto_tramo_usd, (4) días de mora promedio de los pagos en mora. Incluye 4 gráficos: distribución de estados de pago, monto en mora por originador, saldo vigente por tipo_activo_subyacente, y tasa de mora trimestral por tipo_activo_subyacente. Señala en qué trimestres cada tipo de activo tuvo su mora más alta y más baja. Este dashboard es para el comité de riesgo.
+
+**Nivel 4. Mismo dashboard del nivel 3 pero en formato HTML y que permita subir datos para actualizarse**
+Actúa como analista de datos de RICORP Titularizadora. Genera una página HTML de una sola hoja con los mismos 4 KPIs y 4 gráficos del dashboard anterior (tasa de mora global, saldo vigente total, tasa de cupón promedio ponderada, días de mora promedio; distribución de estados de pago, monto en mora por originador, saldo vigente por tipo_activo_subyacente, tasa de mora trimestral por tipo_activo_subyacente), pero con un botón para subir un nuevo archivo .csv con las mismas columnas y que el tablero se recalcule automáticamente. Al final, agrega un resumen ejecutivo de un párrafo con los tres hallazgos más importantes.
+
+**Nivel 5. Plan de mejora y recomendaciones**
+Actúa como asesor estratégico de RICORP Titularizadora. Con el archivo cartera_titularizacion_ricorp.csv, construye una recomendación sobre qué originador o tipo_activo_subyacente debería priorizar RICORP para estructurar nuevas titularizaciones el próximo año. Considera no solo el volumen de monto_tramo_usd, sino la relación entre tasa_cupon_pct y nivel de mora, qué tipos de activo resultan más rentables por originador, y si algún originador muestra un patrón de mora que amerite revisar la política de estructuración. Respalda la recomendación con datos concretos del archivo y señala al menos un trade-off.

@@ -1,0 +1,9 @@
+Caso 1.
+Analiza los datos de esta hoja. Dime cuáles son los intermediarios con más siniestros rechazados, qué ramos concentran más rechazos y si hay algún patrón en los días de resolución que deba reportar a mi jefe.
+
+Caso 2.
+Genera una fórmula para una columna nueva llamada "Tasa de pago" que divida el monto pagado entre el monto reclamado. Si el siniestro no está pagado o el reclamado es 0, que muestre 0. Formatea el resultado como porcentaje. Colorea de verde claro las celdas con valor mayor a 0. Los datos deben ser calculados dinámicamente, no uses datos estáticos.
+
+Caso 3.
+Crea una nueva hoja y genera un tablero entre las columnas A-G, con los siguientes gráficos: distribución de estados de siniestro (Pagado, Rechazado, En revisión, Pendiente de documentación) entre enero y junio de 2026, monto total por intermediario, y monto total por ramo. Después, redacta un resumen ejecutivo de un párrafo con los tres hallazgos más importantes para incluir en un reporte.
+
