@@ -1,0 +1,16 @@
+## Prompts. dataset cartera_creditos_bancoazul.xlsx
+
+**Nivel 1. Análisis simple de datos para un correo dirigido al director general**
+Actúa como analista de Banco Azul. Con el archivo cartera_creditos_bancoazul.xlsx, calcula cuántos registros de pago están en estado "En mora" y qué porcentaje representan del total de filas. Redacta el resultado como un correo breve para el director general: asunto sugerido, el dato principal destacado en la primera línea, y una frase que lo compare contra los pagos "Pagado" y "Pagado con retraso". Máximo 100 palabras.
+
+**Nivel 2. Análisis de datos multivariable para resumen ejecutivo de 2 párrafos**
+Actúa como analista de riesgo de Banco Azul. Con el archivo cartera_creditos_bancoazul.xlsx, identifica qué segmento_cliente concentra el mayor monto en mora (suma de monto_capital_usd + monto_interes_usd donde estado_pago sea "En mora"), y compáralo con el segmento que tiene el mayor número de pagos en mora. Indica si es el mismo segmento o no. Redacta un resumen ejecutivo de 2 párrafos para presentar al comité de riesgo: primer párrafo con los hallazgos, segundo párrafo con la implicación para Banco Azul.
+
+**Nivel 3A. Construir un dashboard con 4 KPIs y 4 gráficos**
+Actúa como analista de datos de Banco Azul. Con el archivo cartera_creditos_bancoazul.xlsx, construye un dashboard en formato html con estos 4 KPIs: (1) tasa de mora global (monto en mora / monto_original_usd total), (2) monto total vigente (saldo_vigente_usd), (3) tasa de interés promedio ponderada por monto_original_usd, (4) días de mora promedio de los pagos en mora. Incluye 4 gráficos: distribución de estados de pago, monto en mora por segmento_cliente, saldo vigente por producto_credito, y tasa de mora trimestral por producto_credito. Señala en qué trimestres cada producto tuvo su mora más alta y más baja. Este dashboard es para el comité de riesgo.
+
+**Nivel 3B. Construir un dashboard con 4 KPIs y 4 gráficos**
+Actualiza la página HTML generada en la consulta anterior con un botón para subir un nuevo archivo .xlsx con las mismas columnas y que el tablero se recalcule automáticamente. El tablero debe mostrar algunas animaciones en los gráficos para mostrar la actualización de la información. Al final, agrega un resumen ejecutivo de un párrafo con los tres hallazgos más importantes. 
+
+**Nivel 5. Plan de mejora y recomendaciones**
+Actúa como asesor estratégico de Banco Azul. Con el archivo cartera_creditos_bancoazul.xlsx, construye una recomendación sobre qué segmento_cliente o producto_credito debería priorizar Banco Azul para colocación de nuevos créditos el próximo año. Considera no solo el volumen de monto_original_usd, sino la relación entre tasa_interes_pct y nivel de mora, qué productos resultan más rentables por segmento, y si algún segmento muestra un patrón de mora que amerite revisar la política de originación. Respalda la recomendación con datos concretos del archivo y señala al menos un trade-off.

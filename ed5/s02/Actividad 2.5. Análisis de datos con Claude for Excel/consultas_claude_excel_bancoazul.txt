@@ -1,0 +1,16 @@
+## Claude for Excel - cartera_creditos_bancoazul.xlsx
+
+Demo 1. Preguntas sobre los datos en la hoja
+Actúa como analista de riesgo de Banco Azul. Con los datos de esta hoja, dime qué 3 segmentos_cliente concentran el mayor número de pagos en estado "En mora", qué producto_credito aparece con más frecuencia entre ellos, y si hay algún patrón en los días de mora (dias_mora) de esos casos. Responde en un resumen breve, sin modificar la hoja.
+
+Demo 2. Crear columnas con fórmulas, formato personalizado y color dinámico
+Actúa como analista de datos de Banco Azul. Agrega una nueva columna llamada "Brecha sobre saldo vigente" que calcule, para cada fila, el monto en mora (monto_capital_usd + monto_interes_usd cuando estado_pago sea "En mora", de lo contrario 0) dividido entre saldo_vigente_usd, en formato de porcentaje con 1 decimal. Aplica formato condicional: rojo cuando el valor sea mayor a 10%, amarillo entre 3% y 10%, y sin color por debajo de 3%.
+
+Demo 3. Dashboard con 4 KPIs y 4 gráficos
+Actúa como analista de datos de Banco Azul. Crea una nueva hoja llamada "Tablero" con estos 4 KPIs en una sola fila superior: (1) tasa de mora global, (2) saldo vigente total (saldo_vigente_usd), (3) tasa de interés promedio ponderada por monto_original_usd, (4) días de mora promedio de los pagos en mora. Debajo, en dos filas con 2 gráficos cada una, incluye: distribución de estados de pago, monto en mora por segmento_cliente, saldo vigente por producto_credito, y tasa de mora trimestral por producto_credito. Usa fórmulas, no valores fijos, para que el tablero se recalcule si cambian los datos.
+
+Demo 4. Ampliar el dashboard con un hallazgo adicional
+Actúa como analista de datos de Banco Azul. Sobre la hoja "Tablero" ya creada, agrega un quinto indicador: el segmento_cliente con mayor monto en mora acumulado, junto con el monto exacto. Colócalo junto a los 4 KPIs existentes sin romper el diseño de la fila. Señala en qué trimestre cada producto_credito tuvo su tasa de mora más alta.
+
+Demo 5. Plan de acción en una nueva hoja
+Actúa como asesor estratégico de Banco Azul. Crea una nueva hoja llamada "Plan de Acción" con una tabla que liste, para cada segmento_cliente con tasa de mora superior al promedio general, el producto_credito asociado, el monto en mora, una acción sugerida (ej. revisar política de originación, dar seguimiento reforzado, mantener monitoreo) y un responsable sugerido (Comité de riesgo, Gestión de cartera, Originación). Cierra la hoja con un párrafo de 3-4 líneas que resuma la prioridad principal para el próximo trimestre.
