@@ -1,0 +1,5 @@
+Necesito crear un resumen mensual como el archivo "Reporte_Cobranza_RICORP_Julio_2026.docx" donde el formato es exactamente igual pero lo que cambian son los datos.
+
+En el directorio se encuentra el reporte en formato docx, pdf y en formato de imágenes jpg asi como el logo en formato png. 
+
+Analiza estos recursos y las instrucciones del documento "Instrucciones_Proyecto_Reporte_Cobranza_RICORP.md" para aprender el formato del documento. En este momento la tarea es aprender el formato, y luego se trabajaran con datos.
