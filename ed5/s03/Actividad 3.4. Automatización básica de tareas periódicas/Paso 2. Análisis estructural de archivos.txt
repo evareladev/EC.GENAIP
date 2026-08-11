@@ -1,0 +1,9 @@
+Analiza el contenido completo del archivo adjunto y genera un resumen estructural en texto plano. El archivo representa un mes de operación; la estructura se repetirá en archivos mensuales futuros con las mismas columnas pero distintos registros. El resumen se usará como instrucción de contexto.
+
+Incluye:
+- Nombre del archivo, número de filas y rango temporal del ejemplo (mes,año).
+- Lista de campos con tipo de dato y descripción en una línea.
+- Rango de fechas de cada campo de fecha (primer y último registro).
+- Valores únicos de los campos categóricos.
+
+Usa lista con guiones. Máximo 400 palabras.

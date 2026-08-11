@@ -1,0 +1,101 @@
+Dispones de dos archivos que contienen exactamente el mismo contenido:
+
+- **Archivo A:** Presentación en formato **PDF** (documento original).
+- **Archivo B:** Presentación en formato **Markdown (.md)** (extracción estructurada del PDF).
+
+## Objetivos
+1. Estimar el consumo aproximado de tokens requerido para procesar cada archivo de forma independiente.
+2. Comparar la eficiencia de ambos formatos para un modelo de lenguaje.
+3. Explicar las diferencias observadas.
+
+---
+
+# Estimación del consumo de tokens
+
+Analiza ambos archivos por separado y presenta una tabla como la siguiente:
+
+| Archivo | Tipo de contenido | Tokens estimados | % de una ventana de 200,000 tokens |
+|---------|-------------------|-----------------:|-----------------------------------:|
+| PDF | Documento original con texto, estructura visual, imágenes y metadatos | XXXX | XX % |
+| Markdown | Texto estructurado | XXXX | XX % |
+
+Posteriormente responde las siguientes preguntas:
+
+- ¿Cuál archivo requiere más tokens para ser procesado?
+- ¿Cuál utilizarías como fuente principal para realizar un análisis?
+- ¿Cuál utilizarías únicamente como referencia complementaria?
+- ¿Cuántos tokens aproximadamente se ahorrarían utilizando el archivo Markdown como fuente principal?
+
+---
+
+# Estrategia de procesamiento
+
+Describe brevemente cómo procesarás ambos archivos. Presenta también una estimación del presupuesto total de tokens.
+
+---
+
+# Generación del resumen
+
+Genera un resumen de aproximadamente **1,000 palabras**.
+
+El resumen debe:
+
+- Integrar el contenido de ambos archivos.
+- Utilizar el Markdown como fuente principal.
+- Consultar el PDF únicamente cuando aporte información visual adicional.
+- Agrupar conceptos relacionados.
+- No resumir diapositiva por diapositiva.
+- Mantener únicamente la información conceptual.
+- Omitir instrucciones logísticas, temporizadores y contenido administrativo que no aporte al aprendizaje.
+
+Organiza el resultado utilizando la siguiente estructura:
+
+1. Introducción
+2. Construcción de prompts efectivos
+3. Técnicas de Prompt Engineering
+4. Uso de Proyectos en Claude
+5. Automatización mediante Proyectos
+6. Caso práctico de automatización
+7. Recomendaciones
+8. Conclusiones
+
+---
+
+# Paso 4. Comparación del consumo de tokens
+
+Al finalizar, presenta el siguiente resumen:
+
+```text
+=============================
+Resumen del consumo de tokens
+=============================
+
+PDF
+- Tokens estimados: XXXX
+
+Markdown
+- Tokens estimados: XXXX
+
+Resumen generado
+- Tokens estimados: XXXX
+
+Total aproximado procesado
+- XXXX tokens
+
+Ahorro utilizando Markdown como fuente principal
+- XXXX tokens
+- XX %
+
+Conclusión
+
+Explica cuál formato resulta más eficiente para trabajar con modelos de lenguaje y por qué. Describe en qué situaciones continúa siendo recomendable utilizar el PDF como complemento del archivo Markdown.
+```
+
+---
+
+## Consideraciones
+
+- Las cantidades de tokens pueden ser aproximadas; no es necesario realizar un conteo exacto.
+- Explica las estimaciones utilizadas cuando sea pertinente.
+- Si el modelo no puede conocer el número exacto de tokens, proporciona una estimación razonable basada en el contenido procesado.
+- Prioriza la claridad de la comparación sobre la precisión absoluta del conteo.
