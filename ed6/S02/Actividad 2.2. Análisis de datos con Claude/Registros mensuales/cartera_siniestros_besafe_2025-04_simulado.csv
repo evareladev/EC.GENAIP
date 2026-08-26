@@ -1,0 +1,83 @@
+id_siniestro,fecha_reporte,fecha_cierre,cliente_id,ramo,aseguradora,canal_origen,departamento,prima_anual_usd,monto_reclamado_usd,monto_pagado_usd,estado,dias_resolucion
+SIN-0971,2025-04-01,,CLI-0198,Vida,Pan American Life,Renovación,Santa Ana,1719.91,4944.06,,Pendiente de documentación,
+SIN-0972,2025-04-01,2025-05-04,CLI-0275,Gastos Médicos,Aseguradora Agrícola Comercial,Referido,La Libertad,2625.06,22939.82,16191.59,Pagado,33
+SIN-0982,2025-04-01,2025-06-12,CLI-0227,Daños / Incendio,Pan American Life,Call center,Usulután,2725.32,25400.3,23845.32,Pagado,72
+SIN-0983,2025-04-01,2025-04-27,CLI-0086,Vida,Seguros Atlántida,Sitio web,Santa Ana,2867.01,7602.42,6941.47,Pagado,26
+SIN-1012,2025-04-01,2025-06-01,CLI-0395,Autos,Aseguradora Agrícola Comercial,Sitio web,La Paz,2562.1,8201.33,6201.97,Pagado,61
+SIN-1014,2025-04-01,,CLI-0409,Vida,ASSA,Renovación,San Salvador,2392.22,14236.43,,En trámite,
+SIN-1024,2025-04-01,2025-05-26,CLI-0182,Gastos Médicos,Seguros Atlántida,Sitio web,Usulután,1384.7,6320.1,4405.49,Pagado,55
+SIN-1029,2025-04-01,2025-04-22,CLI-0284,Fianzas,Pan American Life,Ejecutivo de cuenta,La Paz,1494.73,11514.65,8938.9,Pagado,21
+SIN-0978,2025-04-02,2025-05-28,CLI-0118,Autos,ASSA,Ejecutivo de cuenta,San Salvador,2212.55,3943.49,2743.59,Pagado,56
+SIN-0980,2025-04-02,,CLI-0098,Transporte de Carga,SISA,Referido,La Libertad,1704.2,29821.08,,Pendiente de documentación,
+SIN-0984,2025-04-02,2025-05-16,CLI-0375,Daños / Incendio,SISA,Ejecutivo de cuenta,San Miguel,1504.89,13088.69,11762.73,Pagado,44
+SIN-1020,2025-04-02,2025-04-29,CLI-0396,Fianzas,Aseguradora Agrícola Comercial,Sitio web,La Paz,1093.66,10675.2,7990.25,Pagado,27
+SIN-1032,2025-04-02,,CLI-0231,Daños / Incendio,MAPFRE El Salvador,Renovación,Sonsonate,1566.63,18155.96,,En trámite,
+SIN-0965,2025-04-03,2025-04-22,CLI-0186,Autos,Aseguradora Agrícola Comercial,Call center,San Miguel,2197.79,22543.25,16959.07,Pagado,19
+SIN-1004,2025-04-03,,CLI-0408,Gastos Médicos,SISA,Referido,Usulután,2079.66,18488.73,,En trámite,
+SIN-1033,2025-04-03,2025-05-28,CLI-0391,Fianzas,MAPFRE El Salvador,Ejecutivo de cuenta,San Miguel,769.93,10279.6,8998.45,Pagado,55
+SIN-1035,2025-04-03,,CLI-0102,Vida,SISA,Ejecutivo de cuenta,Santa Ana,521.67,19809.64,,Pendiente de documentación,
+SIN-1039,2025-04-03,,CLI-0334,Vida,MAPFRE El Salvador,Sitio web,Sonsonate,1300.12,10276.25,,Pendiente de documentación,
+SIN-0963,2025-04-04,,CLI-0413,Transporte de Carga,Seguros Atlántida,Referido,San Miguel,620.58,4563.82,,En trámite,
+SIN-0998,2025-04-04,2025-04-14,CLI-0180,Autos,Seguros Atlántida,Sitio web,Sonsonate,2274.51,7531.85,0.0,Rechazado,10
+SIN-0993,2025-04-05,2025-05-19,CLI-0354,Daños / Incendio,SISA,Sitio web,Usulután,456.61,9428.71,9168.19,Pagado,44
+SIN-1017,2025-04-05,2025-05-05,CLI-0021,Gastos Médicos,Pan American Life,Call center,San Salvador,1306.43,4940.74,4833.07,Pagado,30
+SIN-1028,2025-04-05,,CLI-0052,Daños / Incendio,MAPFRE El Salvador,Referido,La Libertad,979.95,28773.23,,En trámite,
+SIN-1027,2025-04-07,2025-05-18,CLI-0370,Fianzas,ASSA,Renovación,La Paz,1859.78,7803.37,6520.93,Pagado,41
+SIN-0979,2025-04-08,,CLI-0343,Vida,SISA,Ejecutivo de cuenta,Santa Ana,1981.6,20314.82,,En trámite,
+SIN-0996,2025-04-08,,CLI-0128,Fianzas,Aseguradora Agrícola Comercial,Call center,Santa Ana,853.69,24968.54,,Pendiente de documentación,
+SIN-0991,2025-04-09,2025-05-09,CLI-0310,Fianzas,Seguros Atlántida,Ejecutivo de cuenta,La Paz,2385.51,21726.12,13855.5,Pagado,30
+SIN-1037,2025-04-09,2025-05-06,CLI-0277,Vida,ASSA,Call center,Sonsonate,384.98,6967.3,6057.17,Pagado,27
+SIN-1018,2025-04-10,,CLI-0189,Transporte de Carga,SISA,Ejecutivo de cuenta,San Salvador,660.32,2476.59,,Pendiente de documentación,
+SIN-0997,2025-04-11,2025-05-01,CLI-0180,Fianzas,Aseguradora Agrícola Comercial,Call center,San Salvador,986.64,3905.94,3549.66,Pagado,20
+SIN-1016,2025-04-12,2025-05-14,CLI-0426,Vida,Pan American Life,Renovación,La Paz,897.6,3884.8,3814.87,Pagado,32
+SIN-0964,2025-04-13,2025-05-09,CLI-0177,Autos,Aseguradora Agrícola Comercial,Ejecutivo de cuenta,Sonsonate,581.52,8102.96,0.0,Rechazado,26
+SIN-1002,2025-04-13,2025-05-18,CLI-0342,Vida,Seguros Atlántida,Referido,San Salvador,1713.16,24172.77,20449.56,Pagado,35
+SIN-1015,2025-04-13,2025-05-31,CLI-0340,Transporte de Carga,SISA,Call center,Sonsonate,1062.18,11210.25,8243.18,Pagado,48
+SIN-1040,2025-04-13,2025-05-18,CLI-0165,Gastos Médicos,Pan American Life,Referido,Usulután,2065.04,13266.84,10374.94,Pagado,35
+SIN-0994,2025-04-14,2025-06-01,CLI-0184,Fianzas,MAPFRE El Salvador,Call center,La Paz,2762.32,18438.26,0.0,Rechazado,48
+SIN-1013,2025-04-14,2025-05-07,CLI-0276,Gastos Médicos,SISA,Renovación,San Miguel,1328.05,9894.46,8580.59,Pagado,23
+SIN-1022,2025-04-14,2025-05-24,CLI-0268,Daños / Incendio,MAPFRE El Salvador,Sitio web,Sonsonate,2102.04,14250.27,10392.4,Pagado,40
+SIN-1041,2025-04-14,2025-06-04,CLI-0396,Vida,SISA,Sitio web,Usulután,503.0,12562.12,10662.83,Pagado,51
+SIN-0962,2025-04-15,2025-05-27,CLI-0259,Autos,SISA,Ejecutivo de cuenta,Usulután,1525.08,20381.93,12302.26,Pagado,42
+SIN-0977,2025-04-15,2025-05-23,CLI-0103,Gastos Médicos,Seguros Atlántida,Ejecutivo de cuenta,La Libertad,691.59,6894.28,0.0,Rechazado,38
+SIN-0987,2025-04-15,,CLI-0105,Gastos Médicos,MAPFRE El Salvador,Referido,San Salvador,1044.66,18510.87,,En trámite,
+SIN-1003,2025-04-15,2025-06-11,CLI-0001,Fianzas,MAPFRE El Salvador,Ejecutivo de cuenta,Usulután,1251.36,6705.25,5292.64,Pagado,57
+SIN-1008,2025-04-15,,CLI-0411,Vida,SISA,Renovación,La Libertad,1572.89,17547.71,,En trámite,
+SIN-1009,2025-04-15,,CLI-0259,Vida,Pan American Life,Renovación,San Miguel,955.95,7286.03,,Pendiente de documentación,
+SIN-1011,2025-04-15,2025-05-23,CLI-0119,Vida,ASSA,Call center,La Libertad,1206.28,6587.88,5060.92,Pagado,38
+SIN-1042,2025-04-15,2025-06-25,CLI-0256,Autos,Aseguradora Agrícola Comercial,Call center,Sonsonate,2288.64,11836.34,0.0,Rechazado,71
+SIN-0974,2025-04-16,,CLI-0391,Transporte de Carga,Pan American Life,Sitio web,Santa Ana,350.11,25554.66,,En trámite,
+SIN-1030,2025-04-16,2025-06-06,CLI-0095,Daños / Incendio,MAPFRE El Salvador,Sitio web,San Salvador,567.53,15150.89,9428.95,Pagado,51
+SIN-0973,2025-04-17,,CLI-0257,Gastos Médicos,Seguros Atlántida,Call center,Usulután,1565.27,5670.85,,Pendiente de documentación,
+SIN-0985,2025-04-17,2025-05-22,CLI-0030,Transporte de Carga,Seguros Atlántida,Sitio web,Sonsonate,585.33,6231.89,5221.23,Pagado,35
+SIN-0988,2025-04-17,2025-06-06,CLI-0038,Transporte de Carga,SISA,Renovación,San Salvador,965.57,25795.6,24546.68,Pagado,50
+SIN-0989,2025-04-17,,CLI-0081,Vida,SISA,Referido,Santa Ana,266.32,20651.68,,Pendiente de documentación,
+SIN-0999,2025-04-17,,CLI-0020,Transporte de Carga,Seguros Atlántida,Ejecutivo de cuenta,La Libertad,678.82,24013.29,,En trámite,
+SIN-0969,2025-04-18,2025-05-17,CLI-0256,Vida,Pan American Life,Renovación,San Miguel,1426.7,18363.67,14167.88,Pagado,29
+SIN-0981,2025-04-18,2025-05-28,CLI-0051,Transporte de Carga,Aseguradora Agrícola Comercial,Sitio web,San Salvador,1262.55,10545.05,7506.61,Pagado,40
+SIN-1007,2025-04-18,2025-06-07,CLI-0055,Gastos Médicos,MAPFRE El Salvador,Sitio web,Usulután,939.7,21812.89,17072.33,Pagado,50
+SIN-1019,2025-04-19,2025-05-31,CLI-0160,Autos,Pan American Life,Referido,Santa Ana,1743.7,15095.99,9684.93,Pagado,42
+SIN-1005,2025-04-20,2025-05-19,CLI-0345,Fianzas,Aseguradora Agrícola Comercial,Call center,San Salvador,2179.03,3994.4,0.0,Rechazado,29
+SIN-1023,2025-04-20,2025-05-23,CLI-0126,Daños / Incendio,ASSA,Sitio web,San Miguel,1692.55,8896.12,7096.74,Pagado,33
+SIN-1031,2025-04-20,,CLI-0156,Transporte de Carga,MAPFRE El Salvador,Renovación,La Libertad,900.14,12652.78,,En trámite,
+SIN-0986,2025-04-22,2025-05-23,CLI-0062,Daños / Incendio,SISA,Renovación,San Salvador,1513.85,12657.4,12315.82,Pagado,31
+SIN-1034,2025-04-22,2025-05-11,CLI-0241,Fianzas,MAPFRE El Salvador,Ejecutivo de cuenta,Usulután,913.37,7590.93,6952.66,Pagado,19
+SIN-0992,2025-04-23,2025-06-07,CLI-0002,Fianzas,ASSA,Sitio web,San Miguel,1226.5,1619.39,1021.75,Pagado,45
+SIN-1010,2025-04-23,2025-05-26,CLI-0327,Fianzas,Aseguradora Agrícola Comercial,Renovación,San Miguel,997.63,7718.07,5620.64,Pagado,33
+SIN-1021,2025-04-23,,CLI-0216,Daños / Incendio,ASSA,Sitio web,Usulután,762.55,6069.28,,Pendiente de documentación,
+SIN-1026,2025-04-23,2025-06-23,CLI-0189,Vida,SISA,Renovación,La Paz,1271.49,8347.03,5782.44,Pagado,61
+SIN-1036,2025-04-23,,CLI-0305,Gastos Médicos,SISA,Referido,San Salvador,1184.0,7727.52,,En trámite,
+SIN-0961,2025-04-24,2025-06-13,CLI-0328,Transporte de Carga,Aseguradora Agrícola Comercial,Referido,San Miguel,2332.09,4340.36,3337.41,Pagado,50
+SIN-0975,2025-04-24,2025-06-04,CLI-0426,Gastos Médicos,MAPFRE El Salvador,Referido,Usulután,1328.68,3900.46,3524.92,Pagado,41
+SIN-0990,2025-04-24,2025-06-01,CLI-0154,Daños / Incendio,ASSA,Sitio web,San Miguel,1454.0,7729.34,0.0,Rechazado,38
+SIN-0995,2025-04-24,2025-05-23,CLI-0122,Daños / Incendio,Pan American Life,Sitio web,Santa Ana,2470.41,19472.12,14893.48,Pagado,29
+SIN-1000,2025-04-24,2025-05-15,CLI-0098,Fianzas,Aseguradora Agrícola Comercial,Call center,Santa Ana,2548.87,18065.3,12273.93,Pagado,21
+SIN-1001,2025-04-24,,CLI-0221,Transporte de Carga,SISA,Referido,La Libertad,2363.61,12315.84,,Pendiente de documentación,
+SIN-1038,2025-04-25,,CLI-0295,Autos,ASSA,Ejecutivo de cuenta,La Paz,1905.17,11537.68,,En trámite,
+SIN-0970,2025-04-26,,CLI-0071,Autos,ASSA,Call center,San Salvador,1720.36,14344.11,,En trámite,
+SIN-1025,2025-04-26,2025-06-06,CLI-0209,Vida,Aseguradora Agrícola Comercial,Ejecutivo de cuenta,Usulután,336.59,8122.07,6188.62,Pagado,41
+SIN-0967,2025-04-27,,CLI-0237,Vida,Pan American Life,Ejecutivo de cuenta,Sonsonate,1937.07,3532.57,,En trámite,
+SIN-0968,2025-04-29,2025-06-14,CLI-0421,Transporte de Carga,MAPFRE El Salvador,Referido,San Miguel,1808.53,6686.85,0.0,Rechazado,46
+SIN-1006,2025-04-29,,CLI-0100,Gastos Médicos,Seguros Atlántida,Referido,San Miguel,1891.37,19075.84,,En trámite,
+SIN-0966,2025-04-30,2025-05-30,CLI-0233,Autos,Seguros Atlántida,Referido,San Miguel,1727.38,3957.64,3378.72,Pagado,30
+SIN-0976,2025-04-30,2025-06-09,CLI-0244,Daños / Incendio,ASSA,Renovación,Usulután,1427.3,17856.2,0.0,Rechazado,40
