@@ -1,0 +1,27 @@
+Prompt 1. Columna calculada con semáforo de 3 colores
+----------------------------------------------------------------------------
+
+En la hoja "Datos", agrega una columna calculada llamada "Índice de siniestralidad" que divida el monto pagado (monto_pagado_usd) entre la prima anual (prima_anual_usd) de cada siniestro. Debe ser una fórmula de Excel real (no un valor fijo), para que se recalcule automáticamente si los datos cambian. Dale formato numérico con 2 decimales. Después, aplica formato condicional tipo semáforo de 3 colores a toda la columna: rojo claro para los índices más altos (siniestros que le costaron a la aseguradora varias veces la prima anual), blanco para el rango intermedio, y verde claro para los índices más bajos (siniestros saludables). Propón tú mismo los puntos de corte entre colores según la distribución real de los datos, y explícamelos.
+
+Prompt 2. Hoja de KPIs mensuales con semáforo por metas
+----------------------------------------------------------------------------
+
+Luego crea la hoja "KPIs_Mensuales" con los 8 KPIs calculados mes a mes (enero a diciembre 2025), y colorea cada celda de KPI con este criterio:
+- Verde claro si el KPI supera el umbral verde (cuando mayor es mejor) o está por debajo de él (cuando menor es mejor).
+- Amarillo claro si el KPI está entre el umbral amarillo y el umbral verde.
+- Rojo claro si está peor que el umbral amarillo.
+Ten en cuenta la dirección de cada KPI al aplicar el color: para los KPIs donde "menor valor es mejor", la lógica de los umbrales se invierte respecto a los KPIs donde "mayor valor es mejor".
+
+Utiliza como base la información de la hoja "Metas_KPI" que contiene una fila por KPI y columnas para: meta, umbral verde, umbral amarillo y dirección (mayor valor es mejor / menor valor es mejor). 
+
+Prompt 3. Dashboard con los 8 KPIs y 4 gráficos
+----------------------------------------------------------------------------
+
+Crea una hoja llamada "Tablero" en la parte superior. Debajo del título, muestra los 8 KPIs de la hoja "KPIs_Mensuales" distribuidos en dos filas de 4 KPIs cada una, mostrando para cada uno el nombre del KPI y su valor promedio anual (el promedio de los 12 meses). Aplica el mismo criterio de semáforo de colores que usaste en "KPIs_Mensuales", comparando el promedio anual contra las metas y umbrales de "Metas_KPI".
+
+Debajo de los KPIs, agrega 4 gráficos que ayuden a explicar el comportamiento de la cartera durante el año: por ejemplo, la evolución mensual del índice de siniestralidad, la distribución de siniestros por estado (Pagado, Rechazado, En trámite, Pendiente de documentación), el monto pagado por aseguradora, y el volumen de siniestros por ramo o por canal de origen. Elige tú los 4 gráficos que consideres más útiles a partir de los datos disponibles y justifica brevemente por qué los elegiste.
+
+Prompt 4. Plan de acción a partir del Dashboard
+----------------------------------------------------------------------------
+
+Analiza los resultados del Dashboard y de la hoja "KPIs_Mensuales", identificando los KPIs que están en amarillo o rojo (con brecha respecto a su meta). Con base en ese análisis, en la hoja "Plan_de_Accion" genera una tabla que funcione como una estrategia de acción, con las siguientes columnas: KPI con brecha, Causa raíz hipotetizada, Acción propuesta, Responsable (rol), Tier (MDI), Fecha compromiso, Estado. Agrega una fila por cada KPI con brecha identificado, con contenido específico y accionable en cada columna, no genérico.

@@ -1,0 +1,16 @@
+
+Nivel 1. Comparación de rendimiento por aseguradora
+---------------------------------------------------------
+
+Necesito conocer el rendimiento obtenido de cada aseguradora con variables clave de la cartera (monto pagado, monto reclamado, prima anual, días de resolución o distribución de estados de siniestro). Construye como respuesta en este chat dos gráficos que crucen estas variables de forma que se pueda comparar visualmente qué aseguradoras concentran mayor volumen, mayor severidad de siniestros o tiempos de resolución más largos. Acompaña los dos gráficos con un resumen ejecutivo de dos párrafos: el primero describiendo los hallazgos principales, y el segundo con una interpretación de negocio sobre qué aseguradoras destacan positiva o negativamente y por qué. Este resultado se va utilizar para preparar una reunión de revisión de aseguradoras aliadas.
+
+
+Nivel 2. Dashboard de indicadores de cartera
+---------------------------------------------------------
+
+Construye un dashboard visual en formato .html, con 4 KPIs principales de la cartera de siniestros (total de siniestros, monto total pagado, tasa de rechazo y días promedio de resolución) ubicados en la fila superior, y 4 gráficos en la fila inferior que profundicen en distintas dimensiones de los datos (por ramo, por aseguradora, por canal de origen y por evolución mensual). El diseño debe tener fondo blanco y usar los colores corporativos de Be Safe Asesores tomados del logo. En el bloque superior izquierdo, coloca el logo real de Be Safe Asesores (disponible en los archivos del proyecto) embebido dentro del propio HTML. Antes de mostrar el resultado, verifica errores e inconsistencias con el uso de librerias externas. Este dashboard se va a utilizar como recurso de análisis de datos para el equipo responsable de revisar siniestros.
+
+Nivel 3. Dashboard con carga mensual de datos y animación
+---------------------------------------------------------
+
+Actualiza el dashboard anterior para que reciba datos nuevos cada mes: agrega un área arriba de las kpi con la capacidad de subir un archivo con los siniestros del mes en curso y que los 4 KPIs y los 4 gráficos se actualicen automáticamente reflejando los nuevos datos, con una animación de transición al actualizarse en lugar de un cambio abrupto. Esta versión como herramienta recurrente de seguimiento mensual, sin depender de reconstruir el dashboard desde cero cada vez.
