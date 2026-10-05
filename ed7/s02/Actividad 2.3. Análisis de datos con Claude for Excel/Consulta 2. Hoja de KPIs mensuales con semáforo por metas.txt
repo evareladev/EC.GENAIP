@@ -1,0 +1,11 @@
+Luego crea la hoja "KPIs_Mensuales" con los 8 KPIs calculados mes a mes (enero a diciembre 2025) a partir de los datos de la hoja "Datos", y colorea cada celda de KPI con este criterio:
+- Verde claro si el KPI supera el umbral verde (cuando mayor es mejor) o está por debajo de él (cuando menor es mejor).
+- Amarillo claro si el KPI está entre el umbral amarillo y el umbral verde.
+- Rojo claro si está peor que el umbral amarillo.
+Ten en cuenta la dirección de cada KPI al aplicar el color: para los KPIs donde "menor valor es mejor", la lógica de los umbrales se invierte respecto a los KPIs donde "mayor valor es mejor".
+
+Coloca las KPIs en la columna A, la unidad en la columna B, y el cálculo de cada mes en las siguientes columnas.
+
+Utiliza como base la información de la hoja "Metas_KPI" que contiene una fila por KPI y columnas para: unidad, meta, umbral verde, umbral amarillo y dirección (mayor valor es mejor / menor valor es mejor).
+
+No ocultes filas ni columnas de esta hoja, y no apliques inmovilizar paneles (freeze panes) salvo que te lo pida explícitamente. Antes de entregar, confirma visualmente que la fila 1 (encabezados) y la columna A (nombres de KPI) estén visibles y sin inmovilizar, y que la hoja se abra posicionada en la celda A1. Si detectas que algo quedó oculto o inmovilizado, corrígelo antes de entregar.

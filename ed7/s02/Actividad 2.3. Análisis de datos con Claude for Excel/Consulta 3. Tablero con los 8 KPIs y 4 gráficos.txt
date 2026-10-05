@@ -1,0 +1,15 @@
+Crea una hoja llamada "Tablero" en la parte superior. Debajo del título, muestra los 8 KPIs de la hoja "KPIs_Mensuales" distribuidos en dos filas de 4 KPIs cada una, mostrando para cada uno el nombre del KPI y su valor promedio anual (el promedio de los 12 meses). Aplica el mismo criterio de semáforo de colores que usaste en "KPIs_Mensuales", comparando el promedio anual contra las metas y umbrales de "Metas_KPI".
+
+Debajo de los KPIs, agrega 4 gráficos que ayuden a explicar el comportamiento de la cartera de reservas durante el año: por ejemplo, la evolución mensual del ADR o del revenue total, la distribución de reservas por estado (Completada, Cancelada, No-show), el revenue por canal de reserva, y el volumen de reservas por tipo de habitación o por propiedad. Elige tú los 4 gráficos que consideres más útiles a partir de los datos disponibles y justifica brevemente por qué los elegiste.
+
+Usa los colores corporativos de Grupo AGRISAL en todo el diseño del Tablero: azul institucional #2C79A1, azul celeste #0D9CD9, gris oscuro #5B5A5D, gris claro #A8A8A7, sobre fondo blanco.
+
+Distribución de celdas para que el tablero:
+- Fila 1: título del Tablero.
+- Fila 2: subtítulo (ej. "Cierre anual 2025 | Cartera de reservas hoteleras").
+- Filas 4 a 7, columnas A a L: los 8 KPIs, en dos filas de 4 bloques (cada bloque ocupa 3 columnas de ancho y 2 filas de alto).
+- Filas 9 a 28: los dos primeros gráficos lado a lado (columnas A-F y G-L).
+- Filas 30 a 49: los otros dos gráficos lado a lado (columnas A-F y G-L).
+No uses filas ni columnas fuera de este rango para los elementos principales del Tablero.
+
+Todos los valores y gráficos del Tablero deben estar vinculados mediante fórmulas o referencias a las hojas "KPIs_Mensuales" y "Datos" (no valores fijos pegados), de modo que si se actualizan los datos crudos o las metas, el Tablero se recalcule automáticamente.

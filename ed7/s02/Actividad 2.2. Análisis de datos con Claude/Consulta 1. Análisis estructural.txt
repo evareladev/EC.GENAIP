@@ -1,0 +1,9 @@
+Analiza el contenido completo del archivo adjunto en esta consulta y genera un resumen estructural en texto plano, aplicable a cualquier subconjunto mensual con esta misma estructura de columnas. El resumen se usará como instrucción de contexto, no como análisis. Incluye:
+
+- Formato del archivo.
+- Número de filas.
+- Lista de campos con tipo de dato y descripción en una línea.
+- Rango real de cada campo de fecha (primer y último registro de este archivo).
+- Valores únicos de cada campo categórico presentes en este archivo.
+
+Máximo 400 palabras. Usa listas con guiones.
